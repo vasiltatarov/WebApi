@@ -12,6 +12,8 @@ namespace WebApi.Data.Models
         [Required]
         public string Author { get; set; }
 
+        public string ImagePath { get; set; }
+
         public int Year { get; set; }
 
         public double IMDB { get; set; }

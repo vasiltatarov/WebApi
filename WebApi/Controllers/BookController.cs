@@ -31,6 +31,7 @@ namespace WebApi.Controllers
             {
                 Name = book.Name,
                 Author = book.Author,
+                ImagePath = book.ImagePath,
                 Year = book.Year,
                 IMDB = book.IMDB,
             });
