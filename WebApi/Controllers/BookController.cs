@@ -58,6 +58,7 @@ namespace WebApi.Controllers
             entity.Author = book.Author;
             entity.Year = book.Year;
             entity.IMDB = book.IMDB;
+            entity.ImagePath = book.ImagePath;
 
             await this.data.SaveChangesAsync();
 
